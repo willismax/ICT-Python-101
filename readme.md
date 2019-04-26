@@ -15,7 +15,7 @@
 本課程教材包，包含簡報、notebook、HackMD
 - 簡報
 - Notebook
-  - 方法1:GitHub直接點閱*.ipynb檔案，但常會開啟失敗，且無法正常顯示於手機上
+  - 方法1:GitHub(https://github.com/willismax/ICT-Python-101)直接點閱*.ipynb檔案，但常會開啟失敗，且無法正常顯示於手機上
   - 方法2:GitHub的*.ipynb檔案以https://nbviewer.jupyter.org/ 開啟，速度快且可在手機上顯示
     - [01.Python常用語法入門.ipynb](https://nbviewer.jupyter.org/github/willismax/ICT-Python-101/blob/master/01.Python%E5%B8%B8%E7%94%A8%E8%AA%9E%E6%B3%95%E5%85%A5%E9%96%80.ipynb)
     - [02.Python資料分析入門-打底篇.ipynb](https://nbviewer.jupyter.org/github/willismax/ICT-Python-101/blob/master/02.Python%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90%E5%85%A5%E9%96%80-%E6%89%93%E5%BA%95%E7%AF%87.ipynb)
