@@ -1,11 +1,14 @@
-
+---
+slideOptions:
+  transition: slide
+---
 ###### tags: `WDA` `ICT` `AI` `區塊鏈` `Python`
 
 # WDA-資訊科技ICT_101
 >[name=Yu-Wei Chen] 
 >:email: willis@wda.gov.tw 
 
-![TCNR-WDA](https://i.imgur.com/yerMzc1.png)
+![TCNR-WDA](https://i.imgur.com/7SXaWfi.png "title" =300x300)
 
 ----
 
