@@ -1,7 +1,4 @@
----
-slideOptions:
-  transition: slide
----
+
 ###### tags: `WDA` `ICT` `AI` `區塊鏈` `Python`
 
 # WDA-資訊科技ICT_101
