@@ -2,13 +2,13 @@
 slideOptions:
   transition: slide
 ---
-###### tags: `WDA` `ICT` `AI` `區塊鏈` `Python`
+###### tags: `WDA` `ICT` `AI` `Python`
 
 # WDA-資訊科技ICT_101
 >[name=Yu-Wei Chen] 
 >:email: willis@wda.gov.tw 
 
-![TCNR-WDA](https://i.imgur.com/7SXaWfi.png "title" =300x300)
+![](https://i.imgur.com/yerMzc1.png)
 
 ----
 
@@ -18,7 +18,7 @@ slideOptions:
  - [ ] 能簡要說明未來資訊趨勢:smile:
  - [ ] 掌握資訊科技發展相關概念、平台應用、與職場關聯之實際案例解析。:+1:
  - [ ] Python程式基礎及運用方式。:+1:
- - [ ] 手把手資料分析及應用基礎。:100:
+ - [ ] 手把手人工智慧入門實作。:100:
 :::
 ----
 大綱
@@ -28,27 +28,30 @@ slideOptions:
 [TOC]
 
 ----
+
 ## 課程講義
-### 本課程講義：
+### 本課程講義(就是這裡)：
 - 以QR_Code掃描
 ![本課程](https://i.imgur.com/Lg2Lgig.png "title" =200x200)
 - 超連結(二擇一):
     - https://hackmd.io/s/S1akuJl4V  或
     - https://ppt.cc/fcOpkx
-        
-### 程式碼環境
 
+---
+
+### 程式環境與各種平台介紹
 1. 本課程的[GitHub](https://github.com/willismax/ICT-Python-101)
     - https://github.com/willismax/ICT-Python-101
-    - GitHub是免費的開源程式碼集散地，是你不重複造輪子，回饋社會的好夥伴。
-    - *.ipynb檔案可透過 https://nbviewer.ipython.org/ 開啟瀏覽(不能互動)，但進入後按介面右上方"Excute on Binder"可以建立為互動環境！ 
+    - ==參閱老師寫的[GitHub運用](/bfwOQdHNSbOhOO5O7k3gPw)==
+    - 在GutHub的Python筆記本檔案格式*.ipynb檔案可透過 https://nbviewer.ipython.org/ 開啟瀏覽、便於分享。
+    - 進入nbviewer後按介面右上方"Excute on Binder"可以建立互動環境執行程式！ 
         - [01.Python常用語法入門.ipynb](https://nbviewer.ipython.org/github/willismax/ICT-Python-101/blob/master/01.Python%E5%B8%B8%E7%94%A8%E8%AA%9E%E6%B3%95%E5%85%A5%E9%96%80.ipynb)
         - [02.Python資料分析入門-打底篇.ipynb](https://nbviewer.ipython.org/github/willismax/ICT-Python-101/blob/master/02.Python%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90%E5%85%A5%E9%96%80-%E6%89%93%E5%BA%95%E7%AF%87.ipynb)
         - [03.Python資料分析入門-資料擷取篇crawler.ipynb](https://nbviewer.ipython.org/github/willismax/ICT-Python-101/blob/master/03.Python%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90%E5%85%A5%E9%96%80-%E8%B3%87%E6%96%99%E6%93%B7%E5%8F%96%E7%AF%87crawler.ipynb)
         - [04.Python資料分析應用-語意分析篇NLP.ipynb](https://nbviewer.ipython.org/github/willismax/ICT-Python-101/blob/master/04.Python%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90%E6%87%89%E7%94%A8-%E8%AA%9E%E6%84%8F%E5%88%86%E6%9E%90%E7%AF%87NLP.ipynb)
         - [05.Python深度學習入門-標準神經網路DNN做手寫辨識（MNIST）.ipynb](https://nbviewer.ipython.org/github/willismax/ICT-Python-101/blob/master/05.Python%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E5%85%A5%E9%96%80-%E6%A8%99%E6%BA%96%E7%A5%9E%E7%B6%93%E7%B6%B2%E8%B7%AFDNN%E5%81%9A%E6%89%8B%E5%AF%AB%E8%BE%A8%E8%AD%98%EF%BC%88MNIST%EF%BC%89.ipynb)
         - [06.Python資料分析應用-股票分析入門.ipynb](https://nbviewer.ipython.org/github/willismax/ICT-Python-101/blob/master/06.Python%E8%B3%87%E6%96%99%E5%88%86%E6%9E%90%E6%87%89%E7%94%A8-%E8%82%A1%E7%A5%A8%E5%88%86%E6%9E%90%E5%85%A5%E9%96%80.ipynb)
-
+    
 1. [Microsoft Azure Notebook](https://notebooks.azure.com/willismax/projects/wda-python101)
     - 沒註冊帳號可以看程式碼，登入後即可以執行程式互動。
     - 起始步驟
@@ -57,9 +60,11 @@ slideOptions:
         3. 點擊頁面右上方"Clone"按鈕。
         4. 為你複製的資源命名。
         5. 點擊"RUN On Free ...."即可使用程式互動。
+    - 註：2019上半年使用，下半年開始改用Colab
 
 1. [Google的 Colab](https://colab.research.google.com/notebooks/welcome.ipynb)
     - 可以使用GPU運算的雲端資源，亦可線上共同作業，並整合google雲端硬碟。
+    - ==參閱老師寫的[使用Colab相關設定](/oLMiNzPMS5CVTm0NK-XwZA)==
         - [01.Python常用語法入門.ipynb]( https://colab.research.google.com/drive/1jWWSbrzb9OwAT5NHvMNSdkfFYZx4qZGx)
         - [02.Python資料分析入門-打底篇.ipynb](https://colab.research.google.com/drive/1OVvt0yQY9MzwIHoTgnYjI5fuRjMPf-_X)
         - [03.Python資料分析入門-資料擷取篇crawler.ipynb](https://colab.research.google.com/drive/1QMUrD7ouVRr2GhMGJhbGDBx7wjK8NGWb)
@@ -72,19 +77,33 @@ slideOptions:
     - 程式碼在本課程的GitHub:https://github.com/willismax/ICT-Python-101 下載Zip檔，解壓縮後可執行使用。
     - 可以安裝在自己的筆電，歡迎自備筆電學習使用，學習更完整。
 
+> 更多Python開發環境說明==參閱老師寫的[Python開發環境介紹](/QgZ7WajtQsSGnT8Q-L1ziw)==
 
- 
-
-## 課程內容
 ---
 
-### Part1.資通訊技術與趨勢
+ ![](https://i.imgur.com/6qUAqUU.png)
+
+
+
+## 課程主題
+---
+
+### Part1. 資通訊技術與趨勢
 ![](https://i.imgur.com/WOPezvd.png)
 
 #### ICT趨勢
+![](https://i.imgur.com/HEnHCok.png)
+
 - [Gartner 2018 年新興技術發展週期報告：人類與機器的界線更難劃分](https://cdn.technews.tw/2018/08/27/gartner-2018-hype-cycle-for-emerging-technologies/)
 - [Gartner 發布 2019 十大科技預言：量子運算、AI、區塊鏈將迎來爆炸性發展](https://buzzorange.com/techorange/2018/10/18/gartner-2019-top-10-trend/)
 - [Trending Cse Technology /Challenges](http://www.csneophyte.com/blogging.html#)
+- [Gartner 公佈2019年新興技術發展週期報告](https://www.facebook.com/notes/gartner-taiwan/gartner-%E5%85%AC%E4%BD%882019%E5%B9%B4%E6%96%B0%E8%88%88%E6%8A%80%E8%A1%93%E7%99%BC%E5%B1%95%E9%80%B1%E6%9C%9F%E5%A0%B1%E5%91%8A/617522772108456/?fref=mentions&__tn__=K-R)
+
+
+#### 共享經濟
+- [共享經濟是什麼？ 又是如何發展的呢 - pocket money](https://pocketmoney.tw/sharing-economy/)
+- [方俊強專訪（一）／foodpanda扎根七年 迎爆發期 - 經濟日報](https://money.udn.com/money/story/5649/4049171)
+- [訂單被剝三「成」皮，餐飲業還搶合作？從外送平台兩大趨勢，看台灣金母雞產業養成中 - 數位時代](https://meet.bnext.com.tw/articles/view/45172)
 
 
 #### BigData
@@ -94,6 +113,18 @@ slideOptions:
 - [大數據轉化為多種演算法 成就Netflix精準影片推薦系統](https://www.cool3c.com/article/131945)
 - [人才擠爆數據科學行業！五年前的「最性感」職業如今邁向泡沫化](https://buzzorange.com/techorange/2019/03/05/how-to-be-a-data-scientists/)
 
+#### 智慧製造
+- [【圖解】工業機器人之五大機械結構及關鍵零組件/](https://dahetalk.com/2018/02/19/%e3%80%90%e5%9c%96%e8%a7%a3%e3%80%91%e5%b7%a5%e6%a5%ad%e6%a9%9f%e5%99%a8%e4%ba%ba%e4%b9%8b%e4%ba%94%e5%a4%a7%e6%a9%9f%e6%a2%b0%e7%b5%90%e6%a7%8b%e5%8f%8a%e9%97%9c%e9%8d%b5%e9%9b%b6%e7%b5%84%e4%bb%b6/)
+- [機器流程自動化RPA](https://www.ithome.com.tw/tech/124213)
+- [工業4.0最後一哩路:AI大數據](https://ithelp.ithome.com.tw/articles/10210804?sc=pt)
+- [Node-Red](https://oranwind.org/-aws-she-ding-node-red-lai-shi-jue-hua-xian-shi-gan-ce-zi-liao-jiao-xue/)
+- [PMC-SkyMars](http://faremo.pmc.org.tw/RegisterServer/PageIndex.aspx?Language=TW)
+![](https://i.imgur.com/JN42M2K.png)
+- [工研院-智慧製造技術](https://www.itri.org.tw/chi/Content/MSGPic/contents.aspx?&SiteID=1&MmmID=620622503617046655&MSID=1002160601375164104)
+- [導入SMB布建機聯網 急單插單排程調度不再兵荒馬亂](https://www.digitimes.com.tw/iot/article.asp?cat=158&id=0000551156_g9m0ovzu68r1qk5xcmie3)
+- [NIP+SMB 智慧機械，助台灣產業更上層樓](https://youtu.be/nSTs6nqFSz4
+)
+- Python工業4.0 - 工廠監控系統 [github程式碼及說明](https://github.com/willismax/TCPY20180922_Python-industry-IoT)、[Youtube影片](https://www.youtube.com/watch?v=2dYeGf7xBtI)
 
 #### 區塊鏈
 - [wiki](https://zh.wikipedia.org/wiki/%E5%8C%BA%E5%9D%97%E9%93%BE)
@@ -106,10 +137,11 @@ slideOptions:
 - [Libra 是什麼？Libra 懶人包、最新資訊、技術學習統整](https://www.johntool.com/facebook-libra-information/?sfns=mo)
 - [從 Libra 的誕生看網路支付工具的演進與區塊鏈代幣的未來 - INSIDE](https://www.inside.com.tw/article/16706-Libra-and-the-future-of-blockchain?sfns=mo)
 - [臉書幣 Libra 在美國國會聽證會上的重點整理](https://www.inside.com.tw/article/16929-Highlights-from-Facebook-Libra-Senate-hearing)
-- ![](https://i.imgur.com/8eLV8Fo.png)
+- [Gartner：5-10年內區塊鏈將徹底改變大部分產業](https://www.facebook.com/notes/gartner-taiwan/gartner5-10%E5%B9%B4%E5%85%A7%E5%8D%80%E5%A1%8A%E9%8F%88%E5%B0%87%E5%BE%B9%E5%BA%95%E6%94%B9%E8%AE%8A%E5%A4%A7%E9%83%A8%E5%88%86%E7%94%A2%E6%A5%AD/632444087282991/)
+- [區塊鏈介紹-gitbooks](https://easonwang01.gitbooks.io/blockchain/content/block.html)
 
 
-#### AI
+#### AI人工智慧
 - [中國棋王柯潔2017年5月與AlphaGo對弈　李開復：人類勝率是0%](https://www.limitlessiq.com/news/post/view/id/394/)
 - [Understanding AlphaGo](https://machinelearnings.co/understanding-alphago-948607845bb1)
 - [DeepMind and Blizzard to release StarCraft II as an AI research environment](https://deepmind.com/blog/deepmind-and-blizzard-release-starcraft-ii-ai-research-environment/)
@@ -118,10 +150,14 @@ slideOptions:
 - [星際2玩家們，你們很快就會在天梯上爲DeepMind的論文做貢獻了](http://bangqu.com/PX475N.html)
 - [開放《Dota2》全球玩家線上挑戰，OpenAI廝殺7千場拿下99%勝率
 ](https://www.bnext.com.tw/article/53043/openai-five-arena)
+- [AlphaStar被職業玩家戲耍：在星際2上，人工智能無計可施 - 幫趣](https://bangqu.com/lT5482.html?sfns=mo)
 - [AI來襲！全台高中職生明年底前全面接觸新興科技](https://news.ltn.com.tw/news/life/breakingnews/2724423)
 - [我讀《人工智慧在台灣》搞懂的四件事｜經理人學習人工智慧的第一本書](https://easypresentation2016.blogspot.com/2019/06/blog-post_19.html)
 - [深度學習的發展遇到了 3 個瓶頸！霍金的學生：原因是「組合爆炸」](https://buzzorange.com/techorange/2019/02/12/deep-learning-bottleneck/)
 - [AI 臉部辨識將告訴賭場經理 誰是今晚的肥羊](https://udn.com/news/story/6897/3909025)
+- [【中文精華編譯版】吳恩達發布《AI 轉型指南》：5 步驟教 CEO 如何從零開始 AI 計畫](https://buzzorange.com/techorange/2018/12/14/ai-transformation-playbook/)
+- [這張臉不屬於任何人! AI人臉生成演算法GAN的黑科技! | 一探啾竟 第62集 | 啾啾鞋](https://www.youtube.com/watch?v=GaB5dnW6g7Q)
+- [測試-我的工作會被機器取代嗎?](https://willrobotstakemyjob.com/)
 
 #### 物聯網
 - [什麼是物聯網 (IoT)？](https://www.sap.com/taiwan/trends/internet-of-things.html)
@@ -136,11 +172,6 @@ slideOptions:
 - ![](https://i.imgur.com/5Ltwf9g.png)
 - [Uber竟然把兩年前炫耀過的自動駕駛可視化軟件開源了](http://bangqu.com/7B7576.html)
 
-#### 智慧製造
-- [【圖解】工業機器人之五大機械結構及關鍵零組件/](https://dahetalk.com/2018/02/19/%e3%80%90%e5%9c%96%e8%a7%a3%e3%80%91%e5%b7%a5%e6%a5%ad%e6%a9%9f%e5%99%a8%e4%ba%ba%e4%b9%8b%e4%ba%94%e5%a4%a7%e6%a9%9f%e6%a2%b0%e7%b5%90%e6%a7%8b%e5%8f%8a%e9%97%9c%e9%8d%b5%e9%9b%b6%e7%b5%84%e4%bb%b6/)
-- [機器流程自動化RPA](https://www.ithome.com.tw/tech/124213)
-- [工業4.0最後一哩路:AI大數據](https://ithelp.ithome.com.tw/articles/10210804?sc=pt)
-- [Node-Red](https://oranwind.org/-aws-she-ding-node-red-lai-shi-jue-hua-xian-shi-gan-ce-zi-liao-jiao-xue/)
 
 
 #### 資安
@@ -150,6 +181,7 @@ slideOptions:
 - [【5G科普】只要9張圖，看懂什麼是5G｜大和有話說](https://meethub.bnext.com.tw/%E3%80%905g%E7%A7%91%E6%99%AE%E3%80%91%E5%8F%AA%E8%A6%819%E5%BC%B5%E5%9C%96%EF%BC%8C%E7%9C%8B%E6%87%82%E4%BB%80%E9%BA%BC%E6%98%AF5g%EF%BD%9C%E5%A4%A7%E5%92%8C%E6%9C%89%E8%A9%B1%E8%AA%AA/)
 - [還看不懂什麼是5G？從定義到各國電信商發展進度，都在這篇5G知識懶人包中](https://www.inside.com.tw/article/13523-5g-background)
 - [5G 首波釋 2790MHz 頻寬，NCC 拚 2020 年上半年如期完成](http://technews.tw/2019/03/26/ncc-5g-2020/)
+- [一日系列第一百一十二集》邰邰這次帶著坤達再次挑戰台灣蜘蛛人啦!!!5G的世代即將來臨!!!-一日電信工程師ft.遠傳電信](https://www.youtube.com/watch?v=x8LiF7uvST4)
 ---
 
 ### Part2. Python程式設計基礎
@@ -174,7 +206,7 @@ print(type({"Andy":[183,70],"Alice":[163,45]}))
 # print()輸出、 input()輸入
 ```
 
-- Python工業4.0 - 工廠監控系統 [github程式碼及說明](https://github.com/willismax/TCPY20180922_Python-industry-IoT)、[Youtube影片](https://www.youtube.com/watch?v=2dYeGf7xBtI)
+
 
 - [Python While(有動畫解釋)](http://www.runoob.com/python/python-while-loop.html)
 
@@ -192,6 +224,7 @@ print(type({"Andy":[183,70],"Alice":[163,45]}))
     - 動手執行看看
     - 案例
         - [姿態預估](https://www.facebook.com/groups/1126153717456741/permalink/2858757920862970/)
+        - [google](https://www.blog.google/technology/ai/move-mirror-you-move-and-80000-images-move-you/)
         - [為想像力加色添彩：使用 GauGAN 人工智慧藝術工具，創造出超過五十萬個影像](https://blogs.nvidia.com.tw/2019/07/gaugan-ai-painting/?fbclid=IwAR1Ry5GY9-lBBYIOR0wPqzmIAumLQRpXpTlVlDhb4Bb4QfnJ48Ndfuy8Bik)
     - 延伸教程
         - https://github.com/imhuay/Algorithm_Interview_Notes-Chinese/tree/master/A-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0
@@ -255,6 +288,7 @@ print(type({"Andy":[183,70],"Alice":[163,45]}))
         - GitHub是強大的版本控制系統，老師課堂上是作為資源庫，但功能不僅如此，如要從事軟體開發，Git版本控制是必備技能。
             - [猴子都能懂得git](https://backlog.com/git-tutorial/tw/)
             -  [30 天精通 Git 版本控管](https://github.com/doggy8088/Learn-Git-in-30-days/blob/master/zh-tw/README.md)
+            - [GitHub及]
     -  IoT
         -  [超圖解 Python 物聯網實作入門：使用 ESP8266 與 MicroPython@博客來](https://www.books.com.tw/products/0010786530)
     
