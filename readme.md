@@ -32,7 +32,7 @@ slideOptions:
 ## 課程講義
 ### 本課程講義(就是這裡)：
 - 以QR_Code掃描
-![本課程](https://i.imgur.com/Lg2Lgig.png "title" =200x200)
+![本課程](https://i.imgur.com/Lg2Lgig.png)
 - 超連結(二擇一):
     - https://hackmd.io/s/S1akuJl4V  或
     - https://ppt.cc/fcOpkx
